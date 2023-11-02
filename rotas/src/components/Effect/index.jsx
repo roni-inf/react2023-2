@@ -28,6 +28,7 @@ export default function Effect() {
     <div>
       <h2>Dados do Cliente</h2>
       {/* renderização condicional */}
+      
       {carregando ? (
         <p>Carregando</p>
       ) : (
